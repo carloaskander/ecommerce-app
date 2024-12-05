@@ -7,7 +7,7 @@ import {
     
     export default function Navbar() {
         return (
-        <header className="bg-white shadow-sm sticky top-0 z-10">
+        <header className="bg-white sticky top-0 z-10">
             <div className="container mx-auto flex items-center justify-between px-4 py-3">
                 {/* Logo */}
                 <div className="text-2xl font-bold text-black">DripLine</div>
@@ -56,10 +56,9 @@ import {
                 </div>
             </div>
                   {/* Divider */}
-            <div className="w-full flex justify-center mt-2">
+            <div className="w-full flex justify-center mt-2 bg-transparent border-0">
                 <div className="h-[1px] w-[90%] bg-gray-300"></div>
             </div>
         </header>
         );
     }
-    
