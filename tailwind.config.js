@@ -8,8 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        black: "#010101",
+        beige: "#f2f0ea",
+        yellow: "#edcf5d",
+        gray: {
+          ...require("tailwindcss/colors").gray, // Keeps default grays
+          DEFAULT: "#a4a4a4", // Adds custom default gray
+        },
+      },
+      fontFamily: {
+        sans: ['Satoshi', 'sans-serif'],
       },
     },
   },

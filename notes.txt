@@ -1,0 +1,10 @@
+src/
+├── app/
+│   ├── api/              # Backend API routes
+│   │   ├── products/     # `/api/products`
+│   │   │   ├── route.js
+│   │   ├── users/        # `/api/users`
+│   │   │   ├── route.js
+│   ├── products/         # Frontend pages
+│   │   ├── page.js       # `/products` (frontend)
+│   ├── layout.js         # Shared layout for frontend
